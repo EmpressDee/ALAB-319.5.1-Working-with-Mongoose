@@ -6,6 +6,7 @@ const PORT = 3000;
 const app = express();
 
 import grades from "./routes/grades.js";
+import "./db/mongoose.js";
 
 app.use(express.json());
 

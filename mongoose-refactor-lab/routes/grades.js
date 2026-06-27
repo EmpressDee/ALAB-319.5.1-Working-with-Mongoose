@@ -1,6 +1,5 @@
-import express from "express";
-import db from "../db/conn.js";
-import { ObjectId } from "mongodb";
+import express from "express"
+
 import Grade from "../models/model-grade.js";
 
 const router = express.Router();
